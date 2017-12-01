@@ -1,0 +1,11 @@
+RewriteEngine On
+
+RewriteRule ^trang-chu.html$ index.php [L]
+
+RewriteRule ^danh-muc/([0-9]+)/([a-zA-Z0-9_-]+).html$ category.php?cid=$1 [L]
+
+RewriteRule ^danh-muc/([0-9]+)/([a-zA-Z0-9_-]+).html&page=([0-9]+)$ category.php?cid=$1&page=$3 [L]
+
+RewriteRule ^tin-tuc/([0-9]+)/([a-zA-Z0-9_-]+).html$ detail.php?nid=$1 [L]
+
+RewriteRule ^tin-tuc/([0-9]+)/([a-zA-Z0-9_-]+).html&page=([0-9]+)$ detail.php?nid=$1&page=$3 [L]
