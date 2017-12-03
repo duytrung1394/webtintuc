@@ -66,7 +66,7 @@ $(document).ready(function(){
 		var form= $(this);
 		var data = new FormData($(this)[0]);
 		 	$.ajax({
-			url: form.attr(' '), 	// Url to which the request is send
+			url: form.attr('action'), 	// Url to which the request is send
 			type: form.attr('method'),  // Type of request to be send, called as method
 			data: data,					// Data sent to server, a set of key/value pairs
 			dataType: 'json',			//type data response
