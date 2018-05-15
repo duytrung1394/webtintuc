@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html>
 <head lang="vi">
-	<base href="http://localhost/www/webtintuc/" />
+	<base href="<?php echo HTTP_HOST;?>" />
 	<title><?php 
 		$tieude = tieude();
 		echo $tieude;

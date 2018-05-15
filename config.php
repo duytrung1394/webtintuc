@@ -5,4 +5,5 @@
     define('DB_USER_NAME','sql9238008');
     define('DB_PASSWORD','qKpYXVmkCl');
     define('POST_NUMBER','3306');
+    define('‘HTTP_HOST’',$_SERVER[‘HTTP_HOST’]);
 ?>
